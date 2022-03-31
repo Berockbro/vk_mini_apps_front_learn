@@ -1,0 +1,26 @@
+{
+  "name": "vk_mini_apps_server_learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "supervisor index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katsysiro/vk_mini_apps_server_learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Katsysiro/vk_mini_apps_server_learn/issues"
+  },
+  "homepage": "https://github.com/Katsysiro/vk_mini_apps_server_learn#readme",
+  "dependencies": {
+    "lowdb": "^1.0.0",
+    "nanoid": "^3.3.1",
+    "socket.io": "^3.1.0",
+    "supervisor": "^0.12.0"
+  }
+}
